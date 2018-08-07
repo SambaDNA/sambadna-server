@@ -1,12 +1,12 @@
 {
   "name": "sambadna-server",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "./dist/app.js",
   "private": true,
   "scripts": {
     "start": "npm run start:remote",
-    "prod": "node ./dist/app.js --network DEMO --branch MAIN --gport 4000 --host https://pmpos-node.herokuapp.com",
+    "prod": "node ./dist/app.js --network DEMO --branch MAIN --gport 4000 --host https://sambadna-node.herokuapp.com",
     "start:remote": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/app.ts --network DEMO --branch MAIN --gport 80",
     "start:local": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/app.ts --host http://localhost:1234 --network DEMO --branch MAIN"
   },
@@ -33,7 +33,7 @@
     "lodash": "^4.17.10",
     "minimist": "^1.2.0",
     "moment": "^2.22.2",
-    "sambadna-core": "^1.0.1",
+    "sambadna-core": "^1.0.2",
     "shortid": "^2.2.12",
     "subscriptions-transport-ws": "^0.9.12",
     "y-array": "^11.0.0-5",

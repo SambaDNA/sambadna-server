@@ -6,7 +6,7 @@ import * as url from 'url';
 const options = minimist(process.argv.slice(2), {
     string: ['host', 'port', 'network', 'branch', 'user', 'terminal', 'gport'],
     default: {
-        host: 'https://pmpos-node.herokuapp.com',
+        host: 'https://sambadna-node.herokuapp.com',
         port: 1234,
         gport: 80,
         network: 'DEMO',
