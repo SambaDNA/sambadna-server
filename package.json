@@ -1,6 +1,6 @@
 {
   "name": "sambadna-server",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "./dist/app.js",
   "private": true,
@@ -16,9 +16,9 @@
   "devDependencies": {
     "@types/express": "^4.16.0",
     "@types/minimist": "^1.2.0",
-    "nodemon": "^1.18.3",
+    "nodemon": "^1.18.4",
     "ts-node": "^6.2.0",
-    "tslint-config-prettier": "^1.14.0",
+    "tslint-config-prettier": "^1.15.0",
     "typescript": "^2.9.2"
   },
   "dependencies": {
@@ -29,13 +29,13 @@
     "graphql": "^0.13.2",
     "graphql-subscriptions": "^0.5.8",
     "graphql-tools": "^2.24.0",
-    "immutable": "^4.0.0-rc.9",
-    "lodash": "^4.17.10",
+    "immutable": "^4.0.0-rc.10",
+    "lodash": "^4.17.11",
     "minimist": "^1.2.0",
     "moment": "^2.22.2",
-    "sambadna-core": "^1.0.2",
-    "shortid": "^2.2.12",
-    "subscriptions-transport-ws": "^0.9.12",
+    "sambadna-core": "^1.0.3",
+    "shortid": "^2.2.13",
+    "subscriptions-transport-ws": "^0.9.15",
     "y-array": "^11.0.0-5",
     "y-indexeddb": "^9.0.0-6",
     "y-map": "^11.0.0-1",
